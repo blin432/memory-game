@@ -46,8 +46,7 @@ class App extends Component {
     
     let newPickedCards = this.state.pickedCards.concat(cardIndex);
 
-    // if they've just selected their second card, compare the two.
-    //.   if they're not the same symbol, flip them back over
+   
     if (newPickedCards.length == 2) {
       var card1Index = newPickedCards[0];
       var card2Index = newPickedCards[1];
